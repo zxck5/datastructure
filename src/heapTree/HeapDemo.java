@@ -1,15 +1,15 @@
-package heap;
+package heapTree;
 import java.util.ArrayList;
 
 import java.util.Collections;
 
 
-public class MyHeap {
+public class HeapDemo {
 	
 	ArrayList<Integer> heap;
 
 	
-	public MyHeap (Integer data) {
+	public HeapDemo (Integer data) {
 		heap = new ArrayList<Integer>();
 		heap.add(null);
 		heap.add(data);
@@ -132,7 +132,7 @@ public class MyHeap {
 	}
 
 	public static void main(String[] args) {
-		MyHeap myHeap = new MyHeap(15);
+		HeapDemo myHeap = new HeapDemo(15);
 		myHeap.insertData(10);
 		myHeap.insertData(8);
 		myHeap.insertData(5);
@@ -142,7 +142,7 @@ public class MyHeap {
 		myHeap.pop();
 		System.out.println(myHeap.heap);
 		myHeap.pop();
-		
+//		
 		System.out.println(myHeap.heap);
 		myHeap.pop();
 		System.out.println(myHeap.heap);

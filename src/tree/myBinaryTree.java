@@ -90,7 +90,7 @@ public class myBinaryTree {
 					
 				} else if (node.left == null || node.right == null) {
 					//CASE2: if there is one child
-					// two branch
+					// one branch
 					Node nodeChild = null;
 					if (node.left != null) {
 						nodeChild = node.left;
